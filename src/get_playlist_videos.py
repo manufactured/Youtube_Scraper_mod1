@@ -1,8 +1,8 @@
 import sqlite3
 from datetime import timedelta
 
-from src.get_video_stats import get_videos_stats
-from src.get_channel_details import get_channel_details
+from get_video_stats import get_videos_stats
+from get_channel_details import get_channel_details
 
 def get_playlist_videos(youtube,playlistID,ec=False,ch_id=None):
 
